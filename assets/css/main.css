@@ -37,6 +37,11 @@ ol, ul {
 	list-style: none;
 }
 
+iframe {
+	display: block;
+	border-style: #777;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -320,6 +325,11 @@ input, select, textarea {
 
 	hr {
 		border-bottom-color: #eeeeee;
+	}
+
+	p.techstack {
+		font-weight: 600;
+		color: #212931;
 	}
 
 /* Row */
@@ -3754,6 +3764,10 @@ input, select, textarea {
 		}
 
 /* Main */
+
+    #resumeifram {
+    	align-self: center;
+    }
 
 	#main {
 		background-color: #ffffff;
